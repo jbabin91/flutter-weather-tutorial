@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:weather_forecast/forecast/app_bar.dart';
 import 'package:weather_forecast/forecast/background/background_with_rings.dart';
-import 'package:weather_forecast/forecast/generic_widgets/sliding_drawer.dart';
+import 'package:weather_forecast/generic_widgets/sliding_drawer.dart';
 import 'package:weather_forecast/forecast/week_drawer.dart';
 
 void main() => runApp(new MyApp());

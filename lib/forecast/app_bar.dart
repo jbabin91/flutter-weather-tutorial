@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_forecast/forecast/generic_widgets/spinner_text.dart';
+import 'package:weather_forecast/generic_widgets/spinner_text.dart';
 
 class ForecastAppBar extends StatelessWidget {
   final Function onDrawerArrowTap;
