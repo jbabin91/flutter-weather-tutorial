@@ -29,6 +29,9 @@ flutter:
   assets:
     - assets/weather-bk_enlarged.png
     - assets/weather-bk.png
+    - assets/ic_cloudy.png
+    - assets/ic_rain.png
+    - assets/ic_sunny.png
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 
