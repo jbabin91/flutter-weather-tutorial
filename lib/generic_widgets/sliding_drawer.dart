@@ -15,8 +15,8 @@ class SlidingDrawer extends StatelessWidget {
     return new Stack(
       children: <Widget>[
         new GestureDetector(
-          onTap: openableController.isOpen() ? openableController.close : null,
-        ),
+            onTap:
+                openableController.isOpen() ? openableController.close : null),
         new FractionalTranslation(
           translation: new Offset(1.0 - openableController.percentOpen, 0.0),
           child: new Align(
@@ -52,7 +52,7 @@ class OpenableController extends ChangeNotifier {
             _state = OpenableState.closing;
             break;
           case AnimationStatus.dismissed:
-            _state = OpenableState.closing;
+            _state = OpenableState.closed;
             break;
         }
         notifyListeners();
